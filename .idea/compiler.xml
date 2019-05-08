@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.sse-consumer-user_main" target="1.8" />
+      <module name="com.sse-consumer-user_test" target="1.8" />
+      <module name="consumer-user_main" target="1.8" />
+      <module name="consumer-user_test" target="1.8" />
+      <module name="eureka-server_main" target="1.8" />
+      <module name="eureka-server_test" target="1.8" />
+      <module name="provider-ticket_main" target="1.8" />
+      <module name="provider-ticket_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
