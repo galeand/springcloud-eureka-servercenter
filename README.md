@@ -27,5 +27,6 @@ public class ConsumerUserApplication {
 
 # 测试  
 启动工程后访问 http://localhost:8001/hystrix，将会看到如下界面：  
-具体的细节可以访问这个链接：[springcloud(五)：熔断监控Hystrix Dashboard和Turbine][http://www.ityouknow.com/springcloud/2017/05/18/hystrix-dashboard-turbine.html]
+具体的细节可以访问这个链接：'[springcloud(五)：熔断监控Hystrix Dashboard和Turbine][http://www.ityouknow.com/springcloud/2017/05/18/hystrix-dashboard-turbine.html]'
+
 
