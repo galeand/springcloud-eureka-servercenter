@@ -23,6 +23,7 @@ public class ConsumerUserApplication {
         return new RestTemplate();//这个模板用来发rest风格的url请求
     }
 }  
+~~~
 
 # 测试  
 启动工程后访问 http://localhost:8001/hystrix，将会看到如下界面：  
