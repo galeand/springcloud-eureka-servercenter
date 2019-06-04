@@ -1,0 +1,37 @@
+server:
+  port: 8090
+
+  #下面这段配置的意思是，配置了一个 id 为 neo_route 的路由规则，
+  #当访问地址 http://localhost:8080/spring-cloud时会自动转发到地址：
+  #http://www.ityouknow.com/spring-cloud。
+  # spring.cloud.gateway.discovery.locator.enabled：是否与服务注册于发现组件进行结合，通过 serviceId 转发到具体的服务实例。默认为 false，设为 true 便开启通过服务中心的自动根据 serviceId 创建路由的功能
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    gateway:
+#      routes:
+#        - id: neo_route # 这里是什么写法，为什么 - 和id之间需要一个空格呢？
+#          uri: http://www.ityouknow.com/
+#          predicates:
+#            - Path=/springcloud
+      discovery:
+        locator:
+          enabled: true
+eureka:
+  client:
+    # register-with-eureka: false # 不把自己注册到eureka上面,这两个默认都是true都会执行
+    # fetch-registry: false # 不从服务器上面来获取注册信息
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
+#eureka:
+#  instance:
+#    prefer-ip-address: true #注册时使用ip地址
+#  client:
+#    #      register-with-eureka: false # 不把自己注册到eureka上面
+#    #      fetch-registry: false # 不从服务器上面来获取注册信息
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/

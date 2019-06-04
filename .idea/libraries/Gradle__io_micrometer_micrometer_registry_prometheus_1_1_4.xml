@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.micrometer:micrometer-registry-prometheus:1.1.4">
+    <CLASSES>
+      <root url="jar://D:/4.gradle/cache/caches/modules-2/files-2.1/io.micrometer/micrometer-registry-prometheus/1.1.4/d93021c4f8e9efcb18bc0da79527bf39a0a41bd6/micrometer-registry-prometheus-1.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/4.gradle/cache/caches/modules-2/files-2.1/io.micrometer/micrometer-registry-prometheus/1.1.4/2079a4e7b6b4633f4103fc92cc9b4995d7f6e3a4/micrometer-registry-prometheus-1.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

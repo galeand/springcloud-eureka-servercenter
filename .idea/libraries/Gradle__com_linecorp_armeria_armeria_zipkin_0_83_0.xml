@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.linecorp.armeria:armeria-zipkin:0.83.0">
+    <CLASSES>
+      <root url="jar://D:/4.gradle/cache/caches/modules-2/files-2.1/com.linecorp.armeria/armeria-zipkin/0.83.0/1d7ab39016742932fd6f185e9bdaf47688bf8c78/armeria-zipkin-0.83.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/4.gradle/cache/caches/modules-2/files-2.1/com.linecorp.armeria/armeria-zipkin/0.83.0/fa2f1c2e23e3369b567e01d7af5e5408cb2cf496/armeria-zipkin-0.83.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

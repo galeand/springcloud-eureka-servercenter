@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.sse-consumer-user_main" target="1.8" />
+      <module name="com.sse-consumer-user_test" target="1.8" />
+      <module name="consumer-user_main" target="1.8" />
+      <module name="consumer-user_test" target="1.8" />
+      <module name="eureka-server_main" target="1.8" />
+      <module name="eureka-server_test" target="1.8" />
+      <module name="provider-ticket-02-consumer-user_main" target="1.8" />
+      <module name="provider-ticket-02-consumer-user_test" target="1.8" />
+      <module name="provider-ticket_main" target="1.8" />
+      <module name="provider-ticket_test" target="1.8" />
+      <module name="springboot-07-springcloud-consumer-user_main" target="1.8" />
+      <module name="springboot-07-springcloud-consumer-user_test" target="1.8" />
+      <module name="springcloud-gateway_main" target="1.8" />
+      <module name="springcloud-gateway_test" target="1.8" />
+      <module name="springcloud-zuul_main" target="1.8" />
+      <module name="springcloud-zuul_test" target="1.8" />
+      <module name="zipkin-server_main" target="1.8" />
+      <module name="zipkin-server_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

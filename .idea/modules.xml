@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.sse-consumer-user.iml" filepath="$PROJECT_DIR$/.idea/modules/com.sse-consumer-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.sse-consumer-user_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.sse-consumer-user_main.iml" group="consumer-user" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.sse-consumer-user_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.sse-consumer-user_test.iml" group="consumer-user" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-user/consumer-user.iml" filepath="$PROJECT_DIR$/consumer-user/consumer-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/consumer-user_main.iml" filepath="$PROJECT_DIR$/.idea/modules/consumer-user_main.iml" group="consumer-user" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/consumer-user_test.iml" filepath="$PROJECT_DIR$/.idea/modules/consumer-user_test.iml" group="consumer-user" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server_main.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/provider-ticket-01-consumer-user.iml" filepath="$PROJECT_DIR$/.idea/modules/provider-ticket-01-consumer-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-07-springcloud-consumer-user_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-07-springcloud-consumer-user_main.iml" group="consumer-user" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-07-springcloud-consumer-user_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-07-springcloud-consumer-user_test.iml" group="consumer-user" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-gateway/springcloud-gateway.iml" filepath="$PROJECT_DIR$/springcloud-gateway/springcloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcloud-gateway_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springcloud-gateway_main.iml" group="springcloud-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcloud-gateway_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springcloud-gateway_test.iml" group="springcloud-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" filepath="$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcloud-zuul_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springcloud-zuul_main.iml" group="springcloud-zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcloud-zuul_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springcloud-zuul_test.iml" group="springcloud-zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zipkin-server.iml" filepath="$PROJECT_DIR$/.idea/modules/zipkin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zipkin-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/zipkin-server_main.iml" group="zipkin-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zipkin-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/zipkin-server_test.iml" group="zipkin-server" />
+    </modules>
+  </component>
+</project>

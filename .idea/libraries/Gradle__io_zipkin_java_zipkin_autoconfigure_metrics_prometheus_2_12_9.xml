@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.zipkin.java:zipkin-autoconfigure-metrics-prometheus:2.12.9">
+    <CLASSES>
+      <root url="jar://D:/4.gradle/cache/caches/modules-2/files-2.1/io.zipkin.java/zipkin-autoconfigure-metrics-prometheus/2.12.9/1015904abc3bedcf06e957b0dcb994165777e0fe/zipkin-autoconfigure-metrics-prometheus-2.12.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/4.gradle/cache/caches/modules-2/files-2.1/io.zipkin.java/zipkin-autoconfigure-metrics-prometheus/2.12.9/3ce5a2238eededefaed5d2824c26f5c1d87ff379/zipkin-autoconfigure-metrics-prometheus-2.12.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

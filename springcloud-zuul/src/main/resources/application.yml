@@ -1,0 +1,30 @@
+server:
+  port: 8888 # zuul路由网关的端口
+spring:
+  zipkin:
+    base-url: http://localhost:9600/ #指定了Zipkin服务器的地址
+  sleuth:
+    sampler:
+      percentage: 1.0 # Spring Cloud Sleuth有一个Sampler策略，可以通过这个实现类来控制采样算法
+  application:
+    name: cloud-zuul
+    eureka:
+      instance:
+        prefer-ip-address: true #注册时使用ip地址
+      client:
+        #      register-with-eureka: false # 不把自己注册到eureka上面
+        #      fetch-registry: false # 不从服务器上面来获取注册信息
+        service-url:
+          defaultZone: http://localhost:8761/eureka/
+#这里的配置表示，访问/it/** 直接重定向到http://www.ityouknow.com/**
+zuul:
+  routes:
+    baidu:
+      path: /it/**
+      url: http://www.ityouknow.com/
+#    api-a:   # 这里其实可以不用自己配置，
+#      path: /producer/**
+#      serviceId: PROVIDER-TICKET
+
+#    spring cloud zuul已经帮我们做了默认配置。默认情况下，
+#    Zuul会代理所有注册到Eureka Server的微服务，并且Zuul的路由规则如下：http://ZUUL_HOST:ZUUL_PORT/微服务在Eureka上的serviceId/**会被转发到serviceId对应的微服务。
