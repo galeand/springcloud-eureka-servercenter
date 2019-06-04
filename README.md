@@ -24,12 +24,15 @@ public class ConsumerUserApplication {
     }
 }  
 ~~~
+# gateway的一个问题？
+之前用zuul来实现服务转发的时候很简单，一直也没有出现过问题，zuul的转发规则和gateway很相似，都是：**spring cloud zuul已经帮我们做了默认配置。默认情况下，Zuul会代理所有注册到Eureka Server的微服务，并且Zuul的路由规则如下：http://ZUUL_HOST:ZUUL_PORT/微服务在Eureka上的serviceId/**会被转发到serviceId对应的微服务。**  
+但是今天在使用gateway转发的时候一直出现404转发错误，我调试了很久，然后以为是什么类似于** @EnableZuulProxy** 的注解没有加上，但是后来我才发现，tm的gateway不支持大小写转换，我tm注册到eureka服务中心的服务名称是大写的，比如“PROVIDER-TICKET”，那么请求路径也必须大写，改成大写之后瞬间转发成功。。。
 
 # 测试  
 启动工程后访问 http://localhost:8001/hystrix，将会看到如下界面：  
 具体的细节可以访问这个链接：[springcloud(五)：熔断监控Hystrix Dashboard和Turbine](http://www.ityouknow.com/springcloud/2017/05/18/hystrix-dashboard-turbine.html)
 
-
+  
 # springcloud入门介绍
 SpringCloud一些介绍和入门，一下简介来源于博客[中小型互联网公司微服务实践-经验和教训](http://www.ityouknow.com/springcloud/2017/10/19/micro-service-practice.html)在此表示感谢。
 
